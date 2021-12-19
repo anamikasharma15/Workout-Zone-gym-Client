@@ -21,7 +21,7 @@ const Dashboard = () => {
     const[isAdmin, setIsAdmin] = useState(false)
 
     useEffect(() =>{
-        fetch(`https://gentle-brushlands-73473.herokuapp.com/checkAdmin/${user.email}`)
+        fetch(`https://enigmatic-hollows-76868.herokuapp.com/checkAdmin/${user.email}`)
         .then(res=> res.json())
         .then(data => {
             if(data[0]?.role === 'admin'){
@@ -46,6 +46,10 @@ const Dashboard = () => {
                             <Link to={`${url}/myBooking`}><li className='dashboard-item mt-3'>My Booking</li></Link>
                             <Link to={`${url}/addReview`}><li className='dashboard-item'>Add Review</li></Link>
                             <Link to={`${url}/payment`}><li className='dashboard-item'>Payment</li></Link>
+                             {/* <Link to={`${url}/makeAdmin`}><li className='dashboard-item'>Make Admin</li></Link>
+                            <Link to={`${url}/addServices`}><li className='dashboard-item'>Add Services</li></Link> 
+                            <Link to={`${url}/manageBooking`}><li className='dashboard-item'>Manage Booking</li></Link>
+                              <Link to={`${url}/manageServices`}><li className='dashboard-item'>Manage Services</li></Link>   */}
 
                             {isAdmin && <div><Link to={`${url}/addServices`}><li className='dashboard-item'>Add Services</li></Link>
                             <Link to={`${url}/payment`}><li className='dashboard-item'>Payment</li></Link>

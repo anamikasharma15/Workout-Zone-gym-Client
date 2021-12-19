@@ -58,7 +58,7 @@ const useFirebase = () => {
 
 
         const handleUserInfoRegister = (email) => {
-            fetch("https://gentle-brushlands-73473.herokuapp.com/addUserInfo", {
+            fetch("https://enigmatic-hollows-76868.herokuapp.com/addUserInfo", {
               method: "POST",
               headers: { "content-type": "application/json" },
               body: JSON.stringify({ email }),

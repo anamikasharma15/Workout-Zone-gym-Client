@@ -14,13 +14,18 @@ import SingleServices from "./pages/SingleServices/SingleServices";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import AddServices from "./pages/addServices/addServices";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import MyBooking from "./pages/MyBooking/MyBooking";
+import ManageBooking from "./pages/ManageBooking/ManageBooking";
+import ManageServices from "./pages/ManageServices/ManageServices";
+import Reviews from "./pages/Reviews/Reviews";
+import DisplayReviews from "./pages/DisplayReview/DisplayReview";
+import MakeAdmin from "./pages/MakeAdmin/MakeAdmin";
+import Payment from "./pages/Payment/Payment";
 
 // import NotFound from "./Pages/Home/NotFound/NotFound";
 // import Products from "./Pages/Home/Products/Products";
 // import AddProducts from "./Pages/AddProducts/AddProducts";
-// import ProductDetails from "./Pages/Home/ProductDetails/ProductDe
-// import Dashboard from "./Dashboard/Dashboard";
-// import MyOrders from "./MyOrders/MyOrders";
+// import ProductDetails from "./Pages/Home/ProductDetails/Produc
 // -----------------------------------------
 
 // import Dashbaord from "./components/Dasboard/Dashbaord";
@@ -48,10 +53,10 @@ function App() {
          <Route exact path="/services">
             <Services></Services>
           </Route> 
-          {/* <Route exact path="/myOrder">
-            <MyOrders></MyOrders>
+           <Route exact path="/myOrder">
+            <MyBooking></MyBooking>
           </Route> 
-         */}
+         
            {/*  <PrivateRoute exact path='/singlePoduct/:bikeId'>
             <SingleProduct></SingleProduct>
           </PrivateRoute>  */}
@@ -67,15 +72,27 @@ function App() {
             <Route exact path="/register">
             <Register></Register>
           </Route>
-          {/* <Route exact path="/manageOrders">
-            <MangeOrder></MangeOrder>
-          </Route> */}
+          <Route exact path="/manageOrders">
+            <ManageBooking></ManageBooking>
+          </Route> 
+          <Route exact path="/manageServices">
+            <ManageServices></ManageServices>
+          </Route> 
             <PrivateRoute path="/dashboard">
             <Dashboard></Dashboard>
           </PrivateRoute> 
-          {/* <Route exact path="/addService">
-            <AddServices></AddServices>
-          </Route> */}
+          <Route exact path="/addReview">
+            <Reviews></Reviews>
+          </Route> 
+          <Route exact path='/displayReviews'>
+            <DisplayReviews></DisplayReviews>
+          </Route>
+          <Route exact path='/makeAdmin'>
+            <MakeAdmin></MakeAdmin>
+          </Route>
+          <Route exact path='/payment'>
+            <Payment></Payment>
+          </Route>
         {/* <Route path="*">
               <NotFound></NotFound>
             </Route>  */}

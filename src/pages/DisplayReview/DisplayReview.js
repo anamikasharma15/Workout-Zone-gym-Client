@@ -5,7 +5,7 @@ import emptyProfile from '../images/emptyprofile.png'
 const DisplayReviews = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('/review.JSON')
+        fetch('https://enigmatic-hollows-76868.herokuapp.com/displayReviews')
         .then(res => res.json())
         .then(data => setReviews(data))
     },[])

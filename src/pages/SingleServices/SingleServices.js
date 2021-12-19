@@ -16,7 +16,7 @@ const SingleServices = () => {
         const onSubmit = data => {
             data.status = 'pending';
             data.email = user?.email;
-            fetch('http://localhost:5000/addMyBookings', {
+            fetch('https://enigmatic-hollows-76868.herokuapp.com/addMyBookings', {
                 method:'POST',
                 headers: {'content-type':'application/json'},
                 body: JSON.stringify(data)
@@ -38,7 +38,7 @@ const SingleServices = () => {
     useEffect(() => {
         // const url = `htt
         // fetch(url)
-        fetch(`http://localhost:5000/singleServices/${serviceId}`)
+        fetch(`https://enigmatic-hollows-76868.herokuapp.com/singleServices/${serviceId}`)
         .then(res => res.json())
         .then(data => setSingleProduct(data))
     })

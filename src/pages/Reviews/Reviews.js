@@ -8,7 +8,7 @@ const Reviews = () => {
         const onSubmit = data => {
             console.log(data);
             
-            fetch('https://gentle-brushlands-73473.herokuapp.com/addReview',{
+            fetch('https://enigmatic-hollows-76868.herokuapp.com/addReview',{
                 method: 'POST',
                 headers: {'content-type':'application/json'},
                 body: JSON.stringify(data)

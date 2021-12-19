@@ -10,7 +10,7 @@ const MyOrder = () => {
     const [deleteOrder, setDeleteOrder] = useState(false)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myOrder/${user?.email}`)
+        fetch(`https://enigmatic-hollows-76868.herokuapp.com/myOrder/${user?.email}`)
         .then(res => res.json())
         .then(data => {
             setOrders(data);
@@ -18,7 +18,7 @@ const MyOrder = () => {
     },[user?.email, deleteOrder])
 
     const handleOrderDelete = id =>{
-        const url =`http://localhost:5000/deletedOrder/${id}`
+        const url =`https://enigmatic-hollows-76868.herokuapp.com/deletedOrder/${id}`
         fetch(url, {
             method : 'DELETE',
             headers : {'content-type' : 'application/json'}
@@ -35,7 +35,7 @@ const MyOrder = () => {
     return (
         <div>
             
-            <h1 className='text-center'>My Order {orders.length}</h1>
+            <h1 className='text-center'>My Booking {orders.length}</h1>
             <div className="row container">
             {
                 orders.map(order => 

@@ -9,7 +9,7 @@ const AddServices = () => {
     const { register, handleSubmit, reset } = useForm();
         const onSubmit = data => {
             
-            fetch('http://localhost:5000/addServices',{
+            fetch('https://enigmatic-hollows-76868.herokuapp.com/addServices',{
                 method: 'POST',
                 headers: {'content-type':'application/json'},
                 body: JSON.stringify(data)
