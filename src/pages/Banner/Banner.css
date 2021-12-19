@@ -1,0 +1,49 @@
+/* .banner::before {
+    max-height: 85vh;
+	content: "";
+	position: absolute;
+	top: 0;
+	background-color: #ccd9ee;
+	z-index: -1;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	border-radius: 400px 0 0 400px;
+} */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://cutewallpaper.org/22/dwayne-johnson-workout-wallpapers/28039627.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    /* height:600px; */
+     /* width: 100%; */ 
+    /* border: 1px solid red; */
+     background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+   }
+  body {
+    overflow-x: hidden;
+  }
+   
+   .title {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+  } 
+   .title-sm {
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+  }
+  .shop-btn {
+    background: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 40px;
+  }
+   

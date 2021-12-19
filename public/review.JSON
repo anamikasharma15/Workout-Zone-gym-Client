@@ -1,0 +1,50 @@
+[
+    {
+        "id":"DSCRFAS11",
+        "name":"Aryan khan",
+        "message":"I am in love with the progress I have made here in the last three months.Simply said, the coaches care about every person in every class",
+        "email":"",
+        "price":"$800",
+        "img":"https://image.shutterstock.com/image-photo/young-indian-man-wearing-elegant-260nw-1448274716.jpg"
+
+    },
+    {
+        "id":"DSCRFAS12",
+        "name":"susmita roy",
+        "message":"This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. ",
+        "email":"",
+        "price":"$800",
+      
+        "img":"https://image.shutterstock.com/image-photo/happy-young-business-woman-posing-260nw-1931654570.jpg"
+        
+
+
+    },
+    {
+        "id":"DSCRFAS13",
+        "name":"Max",
+        "message":"The teachers are really friendly and they all have their own style of teaching. 👍 🤩",
+        "email":"",
+        "price":"$900",
+        "img":"https://image.shutterstock.com/image-photo/head-shot-portrait-smiling-caucasian-260nw-1765501895.jpg"
+
+    },
+    {
+        "id":"DSCRFAS14",
+        "name":"",
+    
+         "description":"",
+        
+        "price":"$8000",
+        "img":""
+    },
+    {
+        "id":"DSCRFAS15",
+        "name":"",
+        "description":"",
+        
+        "price":"$800",
+        "img":""
+
+    }
+]

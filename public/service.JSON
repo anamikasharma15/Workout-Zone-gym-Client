@@ -1,0 +1,101 @@
+[
+    {
+        "id":"DSCRFAS1",
+        "name":"HIIT ",
+        "description":"",
+        "price":"$800",
+
+        "details":".",
+        "img":"https://southlake.tapoutfitness.com/wp-content/uploads/sites/43/2020/04/HIIT-Training-Southlake-600x356.jpeg"
+
+    },
+    {
+        "id":"DSCRFAS2",
+        "name":"CARDIO",
+        
+        "description":"Honda became the second-largest Japanese automobile manufacturer in 2001. Honda was the sixth largest automobile manufacturer in the world in 2019.",
+        "price":"$800",
+        "details":"We have affordable dental care plans that allow you to access private dentistry and spread your payments over monthly period.Interested in having the high-quality dental treatments but uncertain how to pay for it?",
+        "img":"https://olimpsport.com/media/mageplaza/blog/post/image//w/y/wyprobuj-5-najlepszych-cwiczen-cardio-na-silowni_5.jpg"
+        
+
+
+    },
+    {
+        "id":"DSCRFAS3",
+        "name":"PERSONAL TRAINING",
+        "description":"",
+
+        "price":"$900",
+        "img":"https://aucla.com.au/wp-content/uploads/2020/05/Personal-training-blog.jpg"
+
+    },
+    {
+        "id":"DSCRFAS4",
+        "name":"POWERSHAPE",
+    
+         "description":"The Ford Motor Company (commonly referred to simply as  is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit. The company sells automobiles and commercial vehicles under the Ford brand, and most luxury cars under the Lincoln band",
+        
+        "price":"$8000",
+        "img":"https://image.shutterstock.com/image-photo/sporty-sexy-couple-showing-muscle-600w-1048671662.jpg"
+    },
+    {
+        "id":"DSCRFAS5",
+        "name":"Mind and body",
+        "description":"",
+        
+        "price":"$800",
+        "img":"https://fithouston.com/wp-content/uploads/2019/06/mind-and-body-3.jpg"
+
+    },
+    {
+        "id":"DSCRFAS6",
+        "name":"WEIGHTLIFTING",
+        "description":" ",
+        
+        "price":"$2000",
+        "img":"https://static.toiimg.com/thumb/msid-77851322,width-1200,height-900,resizemode-4/.jpg"
+
+    },
+    {
+        "id":"DSCRFAS7",
+        "name":"CROSSFIT",
+        "description":".",
+        "price":"$900",
+
+        "details":"",
+        "img":"https://assets.website-files.com/6001d88fe493e18361f11e7b/605914a2066f196f1b9d940b_Fitness%20Classes%20in%20Ohio.jpg"
+
+    },
+    {
+        "id":"DSCRFAS8",
+        "name":"YOGA",
+        "description":"",
+        "price":"$900",
+
+        "details":"",
+        "img":"https://i.pinimg.com/originals/23/fa/08/23fa08dbc85fe652470d6a80473807b3.jpg"
+
+    },
+    {
+        "id":"DSCRFAS9",
+        "name":"",
+        "description":"Subaru is the automobile manufacturing division of Japanese transportation conglomerate Fuji Heavy Industries (FHI), the twenty-second biggest automaker by production worldwide in 2012. In Western markets, the Subaru brand has traditionally been popular among a dedicated core of buyers.",
+        "price":"$900",
+
+        "details":"",
+        "img":""
+
+    },
+    {
+        "id":"DSCRFAS10",
+        "name":"",
+        "description":"",
+        "price":"$900",
+
+        "details":"",
+        "img":""
+
+    }
+  
+]
