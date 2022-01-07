@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact';
 import VideoBanner from '../videoBanner/videoBanner';
 import Services from '../Services/Services';
 import FAQ from '../FAQ/FAQ';
+import Map from "../Map/Map";
 // import Products from '../Products/Products';
 
 
@@ -26,6 +27,8 @@ const Home = () => {
             <DisplayReview></DisplayReview>
             <br /> 
             <Contact></Contact>
+            <br/>
+            <Map></Map>
         </div>
     );
 };

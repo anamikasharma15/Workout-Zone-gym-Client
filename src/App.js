@@ -21,17 +21,11 @@ import Reviews from "./pages/Reviews/Reviews";
 import DisplayReviews from "./pages/DisplayReview/DisplayReview";
 import MakeAdmin from "./pages/MakeAdmin/MakeAdmin";
 import Payment from "./pages/Payment/Payment";
+import Map from "./pages/Map/Map";
 
-// import NotFound from "./Pages/Home/NotFound/NotFound";
-// import Products from "./Pages/Home/Products/Products";
-// import AddProducts from "./Pages/AddProducts/AddProducts";
-// import ProductDetails from "./Pages/Home/ProductDetails/Produc
-// -----------------------------------------
 
-// import Dashbaord from "./components/Dasboard/Dashbaord";
-// import Details from "./components/Details/Details";/
-// import MyBookings from "./components/MyBookings/MyBookings";
-// import MangeOrder from "./components/MangeOrder/MangeOrder";
+// --------------------------------
+
 
 function App() {
   return (
@@ -47,11 +41,16 @@ function App() {
            <Route exact path="/home">
             <Home></Home>
           </Route>
-           <Route exact path="/contact">
+          <Route exact path="/contact">
             <Contact></Contact>
           </Route>
+          <Route exact path="/map">
+            <Map></Map>
+          </Route>
+
+          
          <Route exact path="/services">
-            <Services></Services>
+           <Services></Services>
           </Route> 
            <Route exact path="/myOrder">
             <MyBooking></MyBooking>
@@ -72,7 +71,7 @@ function App() {
             <Route exact path="/register">
             <Register></Register>
           </Route>
-          <Route exact path="/manageOrders">
+          <Route exact path="/manageBooking">
             <ManageBooking></ManageBooking>
           </Route> 
           <Route exact path="/manageServices">

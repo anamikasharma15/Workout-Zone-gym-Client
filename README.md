@@ -4,6 +4,7 @@ cilent:https://github.com/anamikasharma15/Workout-Zone-gym-Client
 server:https://github.com/anamikasharma15/workout-zone-gym-server
 
 # Vist here:
+https://workout-zone-d6801.web.app/
 
 
 
